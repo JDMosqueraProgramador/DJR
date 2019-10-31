@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Equipo x vs Equipo x</title>
+    <link rel="stylesheet" href="css/diseño.css">
+    <link rel="stylesheet" href="css/cubo.css">
+    <link rel="stylesheet" href="css/logins.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/partidos.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-logo row">
+                <img src="imagenes/jesusrey.jpg" alt="" class="circulo logo">
+                <img src="imagenes/logo.JPG" class="title-nav">
+                
+            </div>
+            <div class="derecha">
+                <div class="menuR">
+                    <a href=""><i class="far fa-futbol"></i></a>
+                    <a href="">Salir</a>
+                    <a href="javascript:void(0);" class="" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                </div>
+                <ul class="row menu1 derecha">
+                    <li><a href="">documentación</a></li>
+                    <li><a href="">Inventario</a></li>
+                    <li><a href="">externo</a></li>
+                    <li><a href="index.html">salir</a>
+                    <ul class="eqhy" id="activeDrop">
+                        <li>prro</li>
+                        <li>hola</li>
+                        <li><a href="index.html">Salir</a></li>
+                        </ul>
+                    
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="menuF">
+            <div class="menu2" id="MenuResponsive">
+                <div class="container">
+                    <ul class="row">
+                        <li><a href="">Programación</a></li>
+                        <li><a href=""> tabla de posiciones</a></li>
+                        <li class="unav"><a href=""> Jugadores <i class="fa fa-angle-down"></i></a>
+                            <ul class="">
+                                <li><a href="">Fútbol</a></li>
+                                <li><a href="">Basket</a></li>
+                                <li><a href="">Voleibol</a></li>
+                            </ul>
+                        </li>
+                        <li><a href=""> sanciones</a></li>
+                        <li><a href=""> resultados</a></li>
+                        <li class="res-add"><a href="">documentación</a></li>
+                        <li class="res-add"><a href="">Inventario</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="otro-menu container invisible-a">
+            <a href="Vprofesores.html">Inicio</a>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-c3" style="box-shadow: 0 0 10px rgba(0,0,0,.2);border: 1px solid #ccc;">
+            <div class="tab" id="menuVp">
+                <a class="tablinks" onclick="openCity(event, 'partido')" id="defaultOpen" href="#partido" >
+                    <i class="fas fa-futbol"></i>
+                    Partido
+                    <i class="fa fa-angle-right derecha"></i>
+                </a>
+                <a class="tablinks" onclick="openCity(event, 'estadisticas')" href="#estadisticas">
+                    <i class="fas fa-chart-bar"></i>
+                    Estadisticas
+                    <i class="fa fa-angle-right derecha"></i>
+                </a>
+                <a class="tablinks" onclick="openCity(event, 'opciones')" href="#opciones">
+                    <i class="fas fa-cog"></i>
+                    opciones 
+                    <i class="fa fa-angle-right derecha"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-c9">
+            <div class="encuentro">
+                <figure>
+                    <img src="imagenes/chilena.jpg" width="100%" height="80%">
+                </figure>
+                <div class="cinta-par">
+                    dia 1 mes 1 año 1 aribitro Dioselina Lopera
+                </div>
+                <div class="tiempo">
+                    <div class="prev-btn">
+                        <button class="btn" id="tiempo"><i class="fas fa-stopwatch"></i></button>
+                    </div>
+                </div>
+                <div class="info-partido">
+                    <div class="partido">
+                        <img src="imagenes/jesusrey.jpg" class="circulo" height="80px">
+                        <div class="equipo">
+                            <a href="#">
+                                <span>equipo 1</span>
+                            </a>
+                        </div>
+                        <div class="marcadores">
+                            <div class="marcador">
+                                <span class="mar-1">0</span>- <span class="mar-2">0</span>
+                            </div>
+                        </div>
+                        <div class="equipo">
+                            <a href="#">
+                                <span>equipo 2</span>
+                            </a>
+                        </div>
+                        <img src="imagenes/jesusrey.jpg" class="circulo" height="80px">
+                    </div>
+                    <div class="container">
+                        <hr style="border-color: rgba(194, 194, 194, 0.651);">
+                    </div>
+                    <div class="progreso">
+                            <strong>Acciones</strong> <br><br>
+                        <div class="izquierda equipo1">
+                            <span class="acc-par">Jugador 1 <i class="fa fa-futbol"></i></span> 
+                            <span class="acc-par">Jugador 2 <img src="https://png.icons8.com/office/16/000000/foul.png"></span>
+                        </div>
+                        
+                        <div class="derechaF equipo2">
+                            <span class="acc-par">Jugador 1<i class="fa fa-futbol"></i></span>
+                            <span class="acc-par">Jugador 2 <img src="https://png.icons8.com/office/16/000000/foul.png"></span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="container">
+                <div class="tabcontent active" id="partido">
+                    <div class="row">
+
+                        <ul style="text-align:left">
+                            <h3>Equipo 1</h3><br>
+                            <li ondrop="drop(event)"
+                            ondragover="allowDrop(event)"><i class="fas fa-hand-paper"></i> 
+                                <strong>Jugador 1</strong>
+                                <br><span class="grupo">10-1</span>
+                            </li>
+                            <li ondrop="drop(event)"
+                            ondragover="allowDrop(event)"><i class="fab fa-mailchimp"></i> 
+                                <strong>Jugador 2</strong>
+                                <br><span class="grupo">10-1</span>
+                            </li>
+                            <li ondrop="drop(event)"
+                            ondragover="allowDrop(event)"><i class="fab fa-mailchimp"></i> 
+                                <strong>Jugador 3</strong>
+                                <br><span class="grupo">10-1</span>
+                            </li>
+                            <li ondrop="drop(event)"
+                            ondragover="allowDrop(event)"><i class="fa fa-copyright"></i> 
+                                <strong>Jugador 4</strong>
+                                <br><span class="grupo">10-1</span>
+                            </li>
+                            <li ondrop="drop(event)"
+                            ondragover="allowDrop(event)"><i class="fab fa-mailchimp"></i> 
+                                <strong>Jugador 5</strong>
+                                <br><span class="grupo">10-1</span>
+                            </li>
+                            <li ondrop="drop(event)"
+                            ondragover="allowDrop(event)"><i class="fab fa-mailchimp"></i> 
+                                <strong>Jugador 6</strong>
+                                <br><span class="grupo">10-1</span>
+                            </li>
+                            <li ondrop="drop(event)"
+                            ondragover="allowDrop(event)"><i class="fab fa-mailchimp"></i> 
+                                <strong>Jugador 7</strong>
+                                <br><span class="grupo">10-1</span>
+                            </li>
+                        </ul>
+
+                        <ul style="justify-content:center">
+                            <li><button draggable="true"  id="box"
+                                ondragstart="drag(event)" class="btn amarilla"></button></li>
+                            <li><button draggable="true"  id="box1"
+                                ondragstart="drag(event)" class="btn roja"></button></li>
+                            <li><button draggable="true"  id="box2"
+                                ondragstart="drag(event)" class="btn falta"></button></li>
+                            <li><button draggable="true"  id="box3"
+                                ondragstart="drag(event)" class="btn gol"></button></li>
+                        </ul>
+
+                        <ul style="text-align:right">
+                            <h3>Equipo 2</h3><br>
+
+                                <li ondrop="drop(event)"
+                                ondragover="allowDrop(event)"><i class="fas fa-hand-paper"></i> 
+                                    <strong>Jugador 1</strong>
+                                    <br><span class="grupo">10-1</span>
+                                </li>
+                                <li ondrop="drop(event)"
+                                ondragover="allowDrop(event)"><i class="fab fa-mailchimp"></i> 
+                                    <strong>Jugador 2</strong>
+                                    <br><span class="grupo">10-1</span>
+                                </li>
+                                <li ondrop="drop(event)"
+                                ondragover="allowDrop(event)"><i class="fab fa-mailchimp"></i> 
+                                    <strong>Jugador 3</strong>
+                                    <br><span class="grupo">10-1</span>
+                                </li>
+                                <li ondrop="drop(event)"
+                                ondragover="allowDrop(event)"><i class="fab fa-mailchimp"></i> 
+                                    <strong>Jugador 4</strong>
+                                    <br><span class="grupo">10-1</span>
+                                </li>
+                                <li ondrop="drop(event)"
+                                ondragover="allowDrop(event)"><i class="fab fa-mailchimp"></i> 
+                                    <strong>Jugador 5</strong>
+                                    <br><span class="grupo">10-1</span>
+                                </li>
+                                <li ondrop="drop(event)"
+                                ondragover="allowDrop(event)"><i class="fab fa-mailchimp"></i> 
+                                    <strong>Jugador 6</strong>
+                                    <br><span class="grupo">10-1</span>
+                                </li>
+                                <li ondrop="drop(event)"
+                                ondragover="allowDrop(event)"><i class="fa fa-copyright"></i> 
+                                    <strong>Jugador 7</strong>
+                                    <br><span class="grupo">10-1</span>
+                                </li>
+                            </ul>
+                    </div>
+
+                </div>
+                <div class="tabcontent" id="estadisticas">
+                    <h3>Estadisticas del partido</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Equipo 1</th><th></th><th>equipo 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>0</td><td>Puntos</td><td>0</td>
+                            </tr>
+                            <tr>
+                                <td>0</td><td>Posición</td><td>0</td>
+                            </tr>
+                            <tr>
+                                <td>0</td><td>Goles</td><td>0</td>
+                            </tr>
+                            <tr>
+                                <td>0</td><td>Victorias</td><td>0</td>
+                            </tr>
+                            <tr>
+                                <td>0</td><td>Derrotas</td><td>0</td>
+                            </tr>
+                            <tr>
+                                <td>0</td><td>Empate</td><td>0</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tabcontent" id="opciones">
+                    <div class="row opc">
+                        <button class="btn btn-v">Aplazar partido</button>
+                        <button class="btn btn-v">w</button>
+                        <button class="btn btn-v">Cancelar partido</button>
+                        <button class="btn btn-v">Arbitro</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer>
+        <div class="row informacion-footer">
+            <div class="col-d4">
+                    <h3>Gracias por hacer parte de esta institución</h3>
+                    <img src="imagenes/jesusrey.jpg" width="80px" height="80px" class="circulo">
+                </div>
+                    
+                <div class="caja">
+                    <div class="icon"><i class="fa fa-home"></i></div>
+                    <div class="detalles"><h3><a href="http://www.iejesusrey.edu.co/index.php">Jesus Rey</a></h3></div>
+                </div>
+                <div class="caja">
+                    <div class="icon"><i class="fa fa-phone"></i></div>
+                    <div class="detalles"><h3>3044327974</h3></div>
+                </div>
+                <div class="caja">
+                    <div class="icon"><i class="fa fa-envelope"></i></div>
+                    <div class="detalles"><h5><a>ignaciomarin@gmail.com</a></h5></div>
+                </div>
+    
+            </div>
+        </div>
+        <div class="icon-pack2">
+                <ul>
+                    <li><a><i class="fab fa-facebook-f" aria-hidden="true"></i> </a> </li>
+                    <li><a><i class="fab fa-google" aria-hidden="true"></i></a> </li>
+                    <li><a><i class="fab fa-instagram" aria-hidden="true"></i></a> </li>
+                    <li><a><i class="fab fa-twitter" aria-hidden="true"></i></a> </li>   
+                    <li><a><i class="fab fa-tumblr" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        <div class="copy">
+            <i class="fa fa-copyright"></i> No me copien prros >:v
+        </div>
+    </footer>
+
+    <script src="js.js"></script>
+    <script>
+    MenuVerScroll();
+    </script>
+
+      <script>
+       
+        </script>
+
+</body>
+</html>
